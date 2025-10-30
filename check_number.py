@@ -12,7 +12,6 @@ try:
     print("Number is 0")
    else:
     print("Number is invaild")
-    
-
-except ValueError:
+  
+except ValueError as e:
   print("Invalid input! Please enter a valid number.")
