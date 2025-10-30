@@ -22,4 +22,4 @@ else:
 print("----- Result -----")
 print(f"Total Marks: {Total}/500")
 print(f"Percentage: {percentage:.2f}%")
-print(f"Grade: {grade}")
+print(f"Grade:- {grade}")
