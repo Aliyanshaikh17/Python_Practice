@@ -4,7 +4,7 @@ Display the day name based on user input (1 for Monday, 2 for Tuesday...).
 '''
 
 
-Day = int(input(" Please enter the week days (1 to 7):- "))
+Day = int(input(" Please enter the week days (1 to 7):-"))
 if Day == 1:
     print("Monday")
 elif Day == 2:
