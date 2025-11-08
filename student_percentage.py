@@ -1,5 +1,5 @@
 '''
-calculate a percentage and grade of student
+calculate a percentage and grade of student ( 5 subject )
 '''
 
 # Calculate Percentage and Grade for 5 subjects
@@ -11,8 +11,7 @@ sub4 = float(input("Enter marks of Subject 4: "))
 sub5 = float(input("Enter marks of Subject 5: "))
 
 total_marks_obtained = sub1 + sub2 + sub3 + sub4 + sub5
-total_max_marks = 5 * 100  # Each subject is out of 100
-
+total_max_marks = 5 * 100  
 percentage = (total_marks_obtained / total_max_marks) * 100
 
 print(f"\nTotal Marks Obtained: {total_marks_obtained}")
