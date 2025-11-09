@@ -31,7 +31,7 @@ elif percentage >= 50:
 elif percentage >= 40:
     grade = "D"
 else:
-    grade = "Fail"
+    grade = "you are Fail in Exam"
 
 print(f"Grade: {grade}")
 
