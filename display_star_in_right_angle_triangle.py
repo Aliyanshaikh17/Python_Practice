@@ -8,3 +8,13 @@ for i in range(1, A + 1):
     for j in range(i):
         print("*", end=" ")
     print()
+
+
+
+'''
+this code in another way
+'''
+
+num=int(input("Enter rows:"))
+for i in range(1,num):
+    print("* "*i)
