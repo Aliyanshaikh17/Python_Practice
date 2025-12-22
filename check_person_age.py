@@ -4,6 +4,7 @@ Write a program to check whether a person is a child, teenager, adult, or senior
 """
 
 age = int(input("Enter your age:- "))
+
 if age <= 12:
     print("You are child")
 elif age >= 13 and age <= 19:
@@ -13,6 +14,4 @@ elif age >= 20 and age <= 59:
 elif age >= 60:
     print("You are senior citizen ")
 else:
-    print("Invalid age")
-
-
+    print("-----Invalid age----- ")
