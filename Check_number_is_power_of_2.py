@@ -1,5 +1,5 @@
 '''
-check the number is power of or not 
+check the number is power of 2 or not 
 '''
 
 num = int(input("Enter the number :- "))
